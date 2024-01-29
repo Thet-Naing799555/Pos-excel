@@ -1,0 +1,17 @@
+Offline Project File Setup
+--------------------------
+
+
+1. Xampp install
+2. composer install
+3. Smart_Order file zip ဖြေ
+4. C > xampp > htdocs အထဲကို folder လိုက်ကြီးထည့်ပေးရန်
+5. Smart_Order file ထဲဝင်
+6. folder path မှတဆင့် cmd ရိုက်ပေးပါ
+7. Xampp > Apache > Config > PHP (php.ini) တွင် gd ဟုရှာပီး အရှေ့မှ ; လေးဖြုတ်ပေးပါ
+8. composer install (မရရင် - composer update)
+9. Xampp > Apache နဲ့ MySQL ကို Start ပေးရန်
+10. Browser မှာတဆင့် localhost/phpmyadmin သို့သွားရန်
+11. New ကိုနှိပ်ပီး Database name နေရာတွင် smart-order ထည့်ပီး Create နှိပ်ပေးပါ
+12. php artisan migrate
+13. php artisan passport:install
